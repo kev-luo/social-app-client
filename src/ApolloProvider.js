@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, createHttpLink, ApolloProvider } from '@ap
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000/'
+  uri: 'https://social-app-gql.herokuapp.com/'
 })
 
 // apollo client can get the jwt token from storage and add it as an authorization header whenever we send a request. basically acts as middleware by setting a context to the request and modifies the request and then forwards it to the http link
