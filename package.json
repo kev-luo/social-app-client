@@ -44,5 +44,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://social-app-gql.herokuapp.com/"
+  "proxy": "https://social-app-gql.herokuapp.com/",
+  "CI": "react-scripts build"
 }
