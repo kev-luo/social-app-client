@@ -45,5 +45,4 @@
     ]
   },
   "proxy": "https://social-app-gql.herokuapp.com/",
-  "CI": "react-scripts build"
 }
